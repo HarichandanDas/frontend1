@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+      <!-- hero section starts -->
+      <section class="hero">
+        <h1>Bootstrap Example</h1>
+        <div class="card mb-3 hold">
+            <img src="https://images.unsplash.com/photo-1561158318-83210510d944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Some Content</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, qui rem accusantium dolorum pariatur nesciunt ratione odio nobis quaerat iste?</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi ab doloribus veniam numquam ea quod cupiditate deleniti tenetur unde est eum qui, nam natus repellat praesentium perspiciatis a quaerat deserunt! Saepe magni consequatur modi fugiat architecto odio ratione fuga?</p>
+            </div>
+          </div>
+        <!-- card sections starts -->
+        <div class="card-group">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1536787078042-b0de7d750342?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1529016122964-c971f6a64dde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-primary">Read more</button>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1531595100285-6e247c4497b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
+              
+            </div>
+          </div>
+          <!-- form starts -->
+          <h3>Form</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+              <div class="mb-3">
+                <label for="Message" class="form-label">Message</label>
+                <textarea type="" class="form-control" id="Message" placeholder="Enter your message"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <!-- form ends -->
+
+          <!-- table starts -->
+          <h3>Table</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Message</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Ottoemail.com</td>
+                <td>Lorem ipsum dolor sit.</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thorntonemail.com</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>twitter@email.com</td>
+                <td>Lorem ipsum dolor sit amet consectetur.</td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- hero sections ends -->
+
+        </section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
